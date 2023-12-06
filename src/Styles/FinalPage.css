@@ -1,0 +1,29 @@
+.finalBody{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.finalForm{
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.finalElement{
+    width: 100%;
+    padding-inline: 5px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .finalForm{
+        width: 300px;
+    }
+  }
